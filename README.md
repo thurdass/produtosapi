@@ -1,28 +1,38 @@
-Produtos API
+# Products API
 
-API REST desenvolvida com Spring Boot para gerenciamento de produtos.
+A simple REST API built with Java and Spring Boot.
 
-Sobre o projeto
+This project was developed while I was learning Spring Boot and REST APIs. The main goal was to understand how a backend application is organized and how CRUD operations work in practice.
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos de desenvolvimento backend utilizando Java e Spring Boot. A aplicação permite realizar operações de cadastro, consulta, atualização e remoção de produtos através de endpoints REST.
+## Technologies
 
-Tecnologias utilizadas
-Java 21
-Spring Boot
-Spring Data JPA
-H2 Database
-Maven
-Funcionalidades
-Cadastrar produtos
-Listar produtos
-Buscar produtos por ID
-Atualizar produtos
-Excluir produtos
-Como executar
+- Java
+- Spring Boot
+- Maven
+- H2 Database
+- Spring Data JPA
+
+## Features
+
+- Create products
+- List all products
+- Update products
+- Delete products
+
+## Preview
+
+<p align="center">
+  <img src="images/postman.png" width="800">
+</p>
+
+## Running the project
+
+```bash
+git clone https://github.com/thurdass/produtosapi.git
+cd produtosapi
 ./mvnw spring-boot:run
+```
 
-A aplicação será iniciada localmente e poderá ser acessada através dos endpoints configurados no projeto.
+## About
 
-Objetivo
-
-Projeto desenvolvido para fins de estudo e prática de conceitos relacionados a APIs REST, persistência de dados com JPA e desenvolvimento backend com Spring Boot.
+This is one of my first backend projects. I'm currently learning Spring Boot and building new applications to improve my Java skills.
